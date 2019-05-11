@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bitmap"
+    tools:context=".view.RegisterActivity">
+
+
+    <EditText
+        android:id="@+id/register_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_110"
+        android:background="@null"
+        android:layout_marginLeft="@dimen/dp_40"
+        android:layout_marginRight="@dimen/dp_40"
+        android:drawableLeft="@drawable/register_icon_name_default_hdpi"
+        android:drawablePadding="@dimen/dp_10"
+        android:hint="昵称"
+        android:maxLines="1"
+        android:textColor="#ddd"
+        android:padding="@dimen/dp_15"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/register_sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_marginLeft="@dimen/dp_40"
+        android:layout_marginRight="@dimen/dp_40"
+        android:drawableLeft="@drawable/register_icon_sex_default_hdpi"
+        android:drawablePadding="@dimen/dp_10"
+        android:hint="性别"
+        android:maxLines="1"
+        android:textColor="#ddd"
+        android:padding="@dimen/dp_15"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/register_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_marginLeft="@dimen/dp_40"
+        android:layout_marginRight="@dimen/dp_40"
+        android:drawableLeft="@drawable/register_icon_date_default_hdpi"
+        android:drawablePadding="@dimen/dp_10"
+        android:hint="出生日期"
+        android:maxLines="1"
+        android:textColor="#ddd"
+        android:padding="@dimen/dp_15"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/register_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_marginLeft="@dimen/dp_40"
+        android:layout_marginRight="@dimen/dp_40"
+        android:drawableLeft="@drawable/register_icon_phone_default_hdpi"
+        android:drawablePadding="@dimen/dp_10"
+        android:hint="手机号"
+        android:maxLines="1"
+        android:padding="@dimen/dp_15"
+        android:textColor="#ddd"
+        android:textColorHint="#fff" />
+    <EditText
+        android:id="@+id/register_emil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_marginLeft="@dimen/dp_40"
+        android:layout_marginRight="@dimen/dp_40"
+        android:drawableLeft="@drawable/register_icon_mail_default_hdpi"
+        android:drawablePadding="@dimen/dp_10"
+        android:hint="邮箱"
+        android:maxLines="1"
+        android:textColor="#ddd"
+        android:padding="@dimen/dp_15"
+        android:textColorHint="#fff" />
+    <EditText
+        android:id="@+id/register_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_marginLeft="@dimen/dp_40"
+        android:layout_marginRight="@dimen/dp_40"
+        android:drawableLeft="@drawable/register_icon_lock_default_hdpi"
+        android:drawablePadding="@dimen/dp_10"
+        android:hint="登录密码"
+        android:maxLines="1"
+        android:textColor="#ddd"
+        android:padding="@dimen/dp_15"
+        android:textColorHint="#fff" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/jzpwd_id"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:padding="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_30"
+            android:text="已有账号！立即登录"
+            android:textColor="#fff"
+            android:textSize="@dimen/sp_14" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="@dimen/dp_280"
+        android:layout_height="@dimen/dp_40"
+        android:layout_gravity="center"
+        android:layout_marginTop="65dp"
+        android:text="注册"
+        android:textColor="#ff5f71"
+        android:textSize="@dimen/sp_18" />
+
+</LinearLayout>
